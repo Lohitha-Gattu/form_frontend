@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter, Routes,Route } from 'react-router-dom';
 import {Form} from './pages/Form';
 import {Details} from './pages/Details';

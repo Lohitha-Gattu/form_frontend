@@ -16,9 +16,9 @@ export function  Details(){
             function getRowTags(){
                
                 const roww = person.map(c => <tr key ={c.id}>
-                <td><input value={c.id}></input></td>
-                <td><input value={c.firstname}></input></td>
-                <td><input value={c.lastname}></input></td>
+                <td>{c.id}</td>
+                <td>{c.firstname}</td>
+                <td>{c.lastname}</td>
                 
     
                
